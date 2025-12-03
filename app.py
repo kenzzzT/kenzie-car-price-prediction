@@ -4,8 +4,7 @@ import pandas as pd
 import joblib
 
 
-with open("model_linear.pkl", "rb") as file:
-model = joblib.load(file)
+model = joblib.load("model_linear.pkl")
 
 
 st.title("Car Price Prediction App (Linear Regression)")
