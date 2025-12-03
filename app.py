@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import joblib
 
-
 model = joblib.load("model_linear.pkl")
+
 
 
 st.title("Car Price Prediction App (Linear Regression)")
