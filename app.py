@@ -4,7 +4,8 @@ import numpy as np
 import pandas as pd
 
 
-model = pickle.load(open("model_linear.pkl", "rb"))
+with open("model_linear.pkl", "rb") as file:
+    model = pickle.load(file)
 
 st.title("Car Price Prediction App (Linear Regression)")
 
